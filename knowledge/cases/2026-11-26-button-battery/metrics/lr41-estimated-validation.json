@@ -1,0 +1,42 @@
+{
+  "frames": 600,
+  "count_histogram": {
+    "100": 600
+  },
+  "algorithm_ms_p50": 52.350832003867254,
+  "algorithm_ms_p95": 56.21140553703299,
+  "last_eligible": 69,
+  "last_stable": 100,
+  "calibration": {
+    "source": "estimated",
+    "frame_id": "work_surface_estimated",
+    "plane_z_mm": 3.6,
+    "rmse_mm": null,
+    "max_error_mm": null,
+    "estimation": {
+      "method": "median_nominal_diameter",
+      "diameter_mm": 7.9,
+      "observed_diameter_px": 47.36105479777107,
+      "sample_count": 100,
+      "diameter_mad_px": 0.45872262848540757,
+      "mm_per_pixel": 0.16680371739465133,
+      "origin_px": [
+        1019.8790116578152,
+        508.19113274933704
+      ],
+      "axes": "X image-right, Y image-up, Z toward camera",
+      "assumptions": [
+        "same nominal part diameter",
+        "near-normal view",
+        "single plane",
+        "negligible lens distortion"
+      ],
+      "robot_base_transform": "unknown"
+    }
+  },
+  "receipt_duration_s": 35.894073486328125,
+  "note": "Real camera sequence; positions use LR41 nominal-size estimates; no physical robot command.",
+  "parent_interface_frames": 120,
+  "parent_interface_frames_with_targets": 118,
+  "parent_last_proposal_count": 66
+}

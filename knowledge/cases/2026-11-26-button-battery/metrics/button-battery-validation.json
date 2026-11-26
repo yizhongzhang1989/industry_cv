@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-26",
+  "scene": "98 visible flat button cells on black board; two bottom-right cells absent compared to initial 100-cell scene",
+  "frames": 600,
+  "detection_count_histogram": {
+    "98": 600
+  },
+  "algorithm_ms_p50": 20.40786149154883,
+  "algorithm_ms_p95": 22.258345507725608,
+  "algorithm_ms_max": 28.066441998817027,
+  "frame_age_s_p95": 0.02942894994630478,
+  "host_receipt_duration_s": 24.039007902145386,
+  "last_frame_stable_targets": 98,
+  "last_frame_blocked_reason_counts": {
+    "uncalibrated": 98,
+    "roi_border": 1,
+    "neighbor_clearance": 33
+  },
+  "observed_track_ids": 98,
+  "max_track_center_std_px": 0.11264656674618326,
+  "image_size": [
+    1920,
+    1080
+  ],
+  "opencv": "5.1.0",
+  "numpy": "2.2.6",
+  "python": "3.10.12",
+  "camera_timestamp_source": "host_decode_receipt; camera/network latency not measured",
+  "camera_readout": "RTSP /stream0 over TCP",
+  "config_sha256": "00fcad07500539bfc4774e9bf7d9360ed84a3f757e1cd296952693b3546d91e2",
+  "annotations": "Algorithm assisted and visually reviewed; no independent physical accuracy ground truth",
+  "robot_calibration_available": false,
+  "visually_verified_count": 98,
+  "regression_images": [
+    "button_cells_100.jpg",
+    "button_cells_edge_marking.jpg",
+    "button_cells_98.jpg"
+  ]
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industry-cv"
+version = "0.2.0"
+readme = "README.md"
+description = "Reusable industrial vision algorithms, acquisition and coordinate geometry"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.21", "opencv-python-headless>=4.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.8", "build>=1"]
+
+[project.scripts]
+industry-cv = "industry_cv.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[project.urls]
+Repository = "https://github.com/yizhongzhang1989/industry_cv"
+
+[tool.setuptools.package-data]
+industry_cv = ["profiles/*/*.json"]

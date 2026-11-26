@@ -1,0 +1,10 @@
+{
+  "part_profile": "parts/lr41",
+  "approach_offset_mm": 20.0,
+  "tcp_quaternion_xyzw": [
+    1,
+    0,
+    0,
+    0
+  ]
+}
